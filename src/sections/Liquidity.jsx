@@ -20,7 +20,7 @@ export default function Liquidity() {
                 </div>
 
                 <div className='w-full rounded-3xl h-[50vh] md:h-[120vh]  row-start-1  col-span-1   md:row-span-3 overflow-hidden'>
-                    <video className='h-full w-full loading-bg  object-fill' autoPlay loop muted>
+                    <video className='h-full w-full loading-bg  object-cover' autoPlay loop muted>
                         <source
                             src='/assets/hero.mp4'
                             type='video/mp4' />

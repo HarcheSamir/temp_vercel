@@ -70,3 +70,27 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+
+
+
+
+
+.scroller {
+  display: flex;
+  animation: scroll 100s linear infinite;
+  width: max-content; 
+}
+
+.scroller:hover {
+  animation-play-state: paused; /* Pause when hovered */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  100% {
+    transform: translateX(-50%); /* Shift the content by half the width */
+  }
+}
+

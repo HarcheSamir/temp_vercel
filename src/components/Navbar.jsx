@@ -7,7 +7,7 @@ export default function Navbar({ floating = false, show }) {
   if (floating) return (
     <div className={`fixed z-50 bg-white flex justify-center top-0 left-0 w-full overflow-hidden duration-500 
       ${show ? ' translate-y-0' : ' -translate-y-full'}`}>
-      <div className={`w-full flex py-10 max-w-[70rem] px-6 items-center`}>
+      <div className={`w-full flex py-6 max-w-[70rem] px-6 items-center`}>
         <img className='h-10 place-self-center' src='/assets/logo.png' />
 
         <div className='xl:flex hidden items-center ml-12 font-regular gap-8 '>
